@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+}
+.left{
+    padding-top: 80px;
+    width: 57%;
+    height: 100vh;
+    background-color: rgb(56, 190, 190);
+    text-align: center;
+    
+
+}
+.left h1{
+    font-size: 40px;
+}
+.left #text{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    padding: 10px;
+}
+.left #quan, #price{
+    width:130px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.left #cart{
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-size: 22px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: darkorange;
+    color: white;
+    border: 0px;
+}
+.right{
+    background-color: rgb(49, 136, 139);
+    width: 43%;
+    height: 100vh;
+    padding: 10px;
+}
+
+.right .divs{
+    display: flex;
+    justify-content: space-between;
+ background-color: rgb(248, 244, 239);
+  height: 75vh;
+  /* padding: 10px; */
+  margin-top: 20px;
+  text-align: center;
+}
+.right #h1{
+    padding-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.right .divs .forItem{
+    width: 42%;
+    /* background-color: crimson; */
+}
+.right .divs .forQuan{
+    width: 15%;
+    /* background-color: rgb(220, 180, 20); */
+}
+.right .divs .forPrice{
+    width: 20%;
+    /* background-color: rgba(240, 69, 12, 0.826); */
+}
+.right .divs .total{
+    width: 20%;
+    /* background-color: rgb(169, 42, 67); */
+}
+ 
+
+.TotalBill{
+   height: 12vh;
+   display: flex;
+   background-color: rgb(247, 239, 208);
+}
+.TotalBill .bill{
+    height: 12vh;
+    width: 210px;
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(24, 57, 58);
+}
+.TotalBill .btn{
+    background-color: rgb(55, 53, 53);
+    width: 305px;
+    text-align: center;
+    font-size: 50px;
+    color: darkorange;
+}
+
